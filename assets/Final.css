@@ -1,0 +1,117 @@
+/* <!------------------------------------------------ nav ------------------------------------------------> */
+
+/* <!------------------------------------------------ right ------------------------------------------------> */
+
+/* <-------------------------------------------------- left -------------------------------------------------> */
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 47px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.item{
+    font-size: 18px;
+    color: rgb(88, 80, 80);
+}
+.item :hover{
+    border-bottom: 1px solid red;
+    background-color: #606060;
+    color: #ffff;
+}
+.linkes{
+    padding: 15px 25px 10px 25px;
+    /* margin-top: 10px; */
+    text-decoration: none;
+    color: #158cad;
+}
+.search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    padding: 6px;
+    border-radius: 28px;
+    background-color: #6e6e6e;
+}
+#search-input{
+    font-size: 14px;
+    color: #dfdfdf;
+    margin-left: 2PX;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+/* <-------------------------------------------------- body -------------------------------------------------> */
+body{
+    margin: 0;
+    background-image: url(../assets/background.jfif);
+}
+#watch-dogs{
+    position:absolute;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    opacity: 65%;
+    z-index: -1;
+}
+#watch-dogs2{
+    display: inline;
+}
+#watch-dogs021{
+    font: 1em sans-serif;
+    font-style: italic;
+    overflow: hidden;
+    left: 350px;
+    top: 250px;
+    position: absolute;
+    padding: 18px 30px 18px 30px;
+    background-color: rgb(237, 21, 21);
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 70%;
+    box-shadow: 10px 30px 40px rgb(225, 151, 151) ;
+}
+#badane-madar{
+    margin: 450px 200px auto 200px;
+    /* padding: 40px; */
+    justify-content: space-evenly;
+    display: flex;
+}
+#div-pedar{
+    background-color: #797575;
+}
+.badane-pesar{
+    
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(92, 84, 84);
+    transform: scale(1 , 1);
+    transition: .3s;
+}
+.badane-pesar:hover{
+    transform: scale(1.2 , 1.2);
+    box-shadow: 0px 0px 5px #888;
+    transition-timing-function:cubic-bezier(1, -.8, .5, 0);
+}
+h1{
+    position: absolute;
+    left: 200px;
+    top: 460px;
+    font: 1em sans-serif;
+}
+/* <-------------------------------------------------- footer -------------------------------------------------> */
+footer{
+    background-color: rgb(0, 0, 0);
+}
+#img-footer{
+    width: 100%;
+    max-height: 450px;
+}
